@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="bg-white max-sm:px-4">
-      <div className="grid grid-cols-4 max-lg-3:grid-cols-3 max-[685px]:grid-cols-1 max-[685]:justify-center max-[1100px]:mx-8 max-lg:grid-cols-2 py-16 container mx-auto max-sm:mx-auto gap-10">
+      <div className="grid grid-cols-4 max-lg-3:grid-cols-3 max-[685px]:grid-cols-1 max-[685]:justify-center max-[1100px]:mx-8 max-lg:grid-cols-2 py-16 container mx-auto gap-10 max-sm:grid-cols-1 max-sm:mx-0">
         <div className="flex flex-col gap-4 max-sm:items-center">
           <h2 className="text-2xl">
             <span className="font-poppins font-bold">CAR</span> Rental
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col mx-auto gap-3  max-sm:items-center">
           <h2 className="text-2xl font-poppins font-bold">SUBSCRIPTION</h2>
-          <p>Subscribe your Email address for latest news & updates.</p>
+          <p className="font-poppins max-sm:text-center">Subscribe your Email address for latest news & updates.</p>
           <input
             type="email"
             placeholder="Enter email address"

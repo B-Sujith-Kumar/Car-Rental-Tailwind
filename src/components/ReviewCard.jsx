@@ -2,7 +2,7 @@ import quotes from "../images/testimonials/quotes.svg";
 
 const ReviewCard = ({ img, place, name, info }) => {
   return (
-    <div className="shadow-lg flex flex-col py-10 px-12 bg-white max-sm:mx-4 min-h-full justify-between">
+    <div className="shadow-lg flex flex-col py-10 px-12 bg-white  min-h-full justify-between">
       <p className="font-poppins font-medium text-[22px]">&quot;{info}&quot;</p>
       <div className="flex justify-between mt-10">
         <div className="flex items-center gap-4">

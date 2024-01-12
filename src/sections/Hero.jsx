@@ -15,7 +15,7 @@ const Hero = () => {
           Rent the car of your dreams. Unbeatable prices, unlimited miles,
           flexible pick-up options and much more.
         </p>
-        <div className="mt-8 flex gap-7 max-lg:flex-col max-md-2:flex-row max-md-2:justify-center max-xs:flex-col max-xs:items-center">
+        <div className="mt-8 flex gap-7 max-lg:flex-col max-md-2:flex-row max-md-2:justify-center max-xs:flex-col max-xs:items-center max-sm:gap-2">
           <button className="text-white font-rubik font-bold text-md rounded-[3px] shadow-sm shadow-coral-red bg-coral-red border-2 border-coral-red px-8 flex gap-2 capitalize max-lg-2:justify-center py-5">
             Book ride
             <svg

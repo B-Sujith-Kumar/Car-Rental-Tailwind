@@ -43,7 +43,7 @@ const Testimonial = () => {
             place={data[0].place}
           />
         </div>
-        <div className="flex-1  max-[912px]:hidden">
+        <div className="flex-1  max-[912px]:hidden max-sm:hidden">
           <ReviewCard
             img={data[1].img}
             name={data[1].name}
